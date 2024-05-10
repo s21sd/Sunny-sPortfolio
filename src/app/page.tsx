@@ -1,14 +1,16 @@
+import { CardStackDemo } from "@/components/Achievement";
 import FirstComp from "@/components/FirstComp";
-import { } from "@/components/ui/floating-navbar";
+import { Whyme } from "@/components/Whyme";
+import { Works } from "@/components/Works";
 import { Navbar } from "@/pages/Navbar";
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <>
+    <div>
       <Navbar />
       <FirstComp />
-    
-    </>
+      <Whyme />
+      <CardStackDemo />
+      <Works />
+    </div>
   );
 }

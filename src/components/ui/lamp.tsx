@@ -16,12 +16,12 @@ export function LampDemo() {
                 }}
                 className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text font-medium tracking-tight text-transparent"
             >
-                <div className="flex flex-col m-auto lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 gap-2">
-                    <h1 className="text-white text-3xl mb-1 tracking-wide">Hello!</h1>
-                    <h1 className="text-white text-3xl mb-1 font-bold tracking-wide">I'm SUNNY</h1>
-                    <p className="leading-relaxed text-gray-400">I enjoy making things for the internet. My interest in web development began in 2021, when I decided to learn HTML and CSS and observe the changes in real time. </p>
+                <div className="flex flex-col m-auto lg:w-1/2 w-1/2 lg:pl-10 lg:py-6 mt-6 lg:mt-0 gap-2">
+                    <h1 className="text-white text-3xl mb-1 tracking-wide font-Merriweather ">Hello!</h1>
+                    <h1 className="text-white text-3xl mb-1 font-bold tracking-wide font-pacificoregular">I'm SUNNY</h1>
+                    <p className="leading-relaxed text-gray-400 font-Merriweather">I enjoy making things for the internet. My interest in web development began in 2021, when I decided to learn HTML and CSS and observe the changes in real time. </p>
 
-                    <div className="flex justify-start gap-4 items-center mt-2">
+                    <div className="flex justify-start gap-4 items-center mt-2 font-pacificoregular">
                         <button className="title-font text-white  bg-[#FEC400] border-0 py-2 px-6 focus:outline-none hover:bg-[#ddbb49] rounded">Download CV</button>
 
                         <button className="flex text-white bg-[#FEC400] border-0 py-2 px-6 focus:outline-none hover:bg-[#ddbb49] rounded">Contact</button>
