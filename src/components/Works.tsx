@@ -38,7 +38,6 @@ export const products = [
         link: "https://65b687c051be0c7b33cbb7c3--cheerful-profiterole-cb4684.netlify.app/",
         thumbnail: Notes,
     },
-
     {
         title: "Classify",
         link: "https://play.google.com/store/apps/details?id=com.classgo.keepnotes",

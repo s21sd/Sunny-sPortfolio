@@ -104,13 +104,11 @@ export const HeroParallax = ({
 export const Header = () => {
     return (
         <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-            <h1 className="text-2xl md:text-7xl text-white font-bold dark:text-white">
-                The Ultimate <br /> development studio
+            <h1 className="text-2xl md:text-5xl text-[#FEC400] font-bold dark:text-white">
+                Empowering Innovation, <br /> Crafting Excellence.
             </h1>
             <p className="max-w-2xl text-base md:text-xl mt-8 text-white dark:text-neutral-200">
-                We build beautiful products with the latest technologies and frameworks.
-                We are a team of passionate developers and designers that love to build
-                amazing products.
+                We craft stunning products leveraging cutting-edge web and Android technologies and frameworks. Our team comprises passionate developers and designers dedicated to creating exceptional digital experiences. With a track record of successful projects in both web and Android development, we are committed to delivering excellence in every endeavor.
             </p>
         </div>
     );
