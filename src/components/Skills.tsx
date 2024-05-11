@@ -1,8 +1,10 @@
 "use client";
 import Image from "next/image";
 import { Tabs } from "./ui/tabs";
-
+import devskills from '../utils/data'
+import SkillsCard from "@/Cards/SkillsCard";
 export function Skills() {
+    console.log(devskills.devskills)
     const tabs = [
         {
             title: "Development",
@@ -10,6 +12,7 @@ export function Skills() {
             content: (
                 <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-[#FEC400]">
                     <p>Development Skills</p>
+                    <SkillsCard items={devskills.devskills} />
 
                 </div>
             ),
@@ -30,6 +33,26 @@ export function Skills() {
             content: (
                 <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-[#FEC400]">
                     <p>Coding Profiles</p>
+
+                </div>
+            ),
+        },
+        {
+            title: "Languages",
+            value: "Languages",
+            content: (
+                <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-[#FEC400]">
+                    <p>Languages</p>
+
+                </div>
+            ),
+        },
+        {
+            title: "Tools",
+            value: "Tools",
+            content: (
+                <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-[#FEC400]">
+                    <p>Tools</p>
 
                 </div>
             ),
