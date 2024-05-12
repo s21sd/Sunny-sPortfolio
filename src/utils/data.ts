@@ -34,12 +34,12 @@ const codingprofiles: datatype[] = [
 
 const devskills = [
     {
-        name: 'HTML5',
-        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg',
+        name: 'HTML',
+        icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7i2TGXUGRcwftt--pFLmlwwtk8Qhwc3XSCG03AVDdJg&s',
     },
     {
-        name: 'CSS3',
-        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg',
+        name: 'CSS',
+        icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKeSTocJZq_lZxgYs2i6AJWbeRWZZyNCKwsDthnlKPWg&s',
     },
     {
         name: 'JavaScript',
@@ -77,6 +77,14 @@ const devskills = [
     {
         name: 'MySQL',
         icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
+    },
+    {
+        name: 'Supabase',
+        icon: 'https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png',
+    },
+    {
+        name: 'postgres',
+        icon: 'https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png',
     },
 
 ];
@@ -157,6 +165,7 @@ const tools = [
 module.exports = {
     codingprofiles,
     devskills,
+    languages,
     androiddev,
     tools
 };
