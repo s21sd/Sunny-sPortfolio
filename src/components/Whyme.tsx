@@ -1,7 +1,4 @@
-
 import { HoverEffect } from "./ui/card-hover-effect";
-
-
 export function Whyme() {
     return (
         <div className="max-w-5xl mx-auto px-8">
@@ -17,20 +14,20 @@ export const projects = [
     {
         title: "Android Development",
         description:
-            "A technology company that builds economic infrastructure for the internet.",
-        link: "https://stripe.com",
+            "Crafting Seamless Experiences, One Line of Code at a Time.",
+        link: "",
     },
     {
         title: "Web Development",
         description:
-            "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-        link: "https://netflix.com",
+            "Elevating Digital Experiences, One Website at a Time.",
+        link: "",
     },
     {
-        title: "Coding Profiles",
+        title: "Coding Enthusiasm",
         description:
-            "A multinational technology company that specializes in Internet-related services and products.",
-        link: "https://google.com",
+            "Unleash Your Potential, One Line of Code at a Time.",
+        link: "",
     },
 
 ];

@@ -6,20 +6,44 @@ type datatype = {
     url: string;
     icon: string;
 };
-const SkillsCard = ({ items }: any) => {
+const SkillsCard = ({ items, value }: any) => {
+
     return (
-        <div className='flex justify-center items-center gap-4 flex-Nowrap mt-4'>
+        <div>
             {
-                items.map((e: any) => {
-                    return (
-                        <div className='flex flex-col justify-center items-center gap-3'>
-                            <Image className='rounded-full' src={e.icon} alt='logos' width={50} height={50} />
-                            <h1 className='text-sm'>{e.name}</h1>
-                        </div>
-                    )
-                })
+                value === 3 ?
+                    <div className='flex gap-4 flex-wrap mt-6'>
+                        {
+
+                            items.map((e: any, index: number) => {
+
+                                return (
+                                    <div key={index} className='flex flex-col justify-center items-center gap-4 text-white'>
+                                        <a href={e.url}>
+                                            <Image className='rounded-full' src={e.icon} alt='logos' width={50} height={50} />
+                                        </a>
+                                        <h1 className='text-sm'>{e.name}</h1>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div> :
+
+                    <div className='flex gap-4 flex-wrap mt-6'>
+                        {
+                            items.map((e: any, index: number) => {
+                                return (
+                                    <div key={index} className='flex flex-col justify-center items-center gap-4 text-white'>
+                                        <Image className='rounded-full' src={e.icon} alt='logos' width={50} height={50} />
+                                        <h1 className='text-sm'>{e.name}</h1>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
             }
         </div>
+
     )
 }
 

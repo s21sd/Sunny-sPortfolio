@@ -7,12 +7,12 @@ type datatype = {
 const codingprofiles: datatype[] = [
     {
         name: 'LeetCode',
-        url: 'https://www.leetcode.com/https://leetcode.com/sunnysrivastava258/',
+        url: 'https://leetcode.com/u/sunnysrivastava258/',
         icon: 'https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg',
     },
     {
         name: 'GeeksforGeeks',
-        url: 'https://auth.geeksforgeeks.org/user/https://auth.geeksforgeeks.org/user/sunnysrivazg0p/',
+        url: 'https://www.geeksforgeeks.org/user/sunnysrivazg0p/',
         icon: 'https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg',
     },
     {
@@ -22,12 +22,12 @@ const codingprofiles: datatype[] = [
     },
     {
         name: 'CodeChef',
-        url: 'https://www.codechef.com/users/https://www.codechef.com/users/sunnysrivastav',
+        url: 'https://www.codechef.com/users/sunnysrivastav',
         icon: 'https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg',
     },
     {
         name: 'HackerRank',
-        url: 'https://www.hackerrank.com/https://www.hackerrank.com/sunnysrivastava4?hr_r=1',
+        url: 'https://www.hackerrank.com/sunnysrivastava4?hr_r=1',
         icon: 'https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg',
     },
 ];

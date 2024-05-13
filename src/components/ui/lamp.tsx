@@ -2,8 +2,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
+import { useRouter } from "next/navigation";
 
 export function LampDemo() {
+    const router = useRouter()
+    const downloadResume = () => {
+        const fileUrl = 'https://drive.google.com/file/d/1RhlqKXig5Jgaj7XWc1A3o1P5HcfKmr80/view?usp=sharing';
+        const anchor = document.createElement('a');
+        anchor.href = fileUrl;
+        anchor.download = 'resume.pdf';
+        anchor.click();
+    };
+
     return (
         <LampContainer>
             <motion.h1
@@ -22,9 +32,9 @@ export function LampDemo() {
                     <p className="leading-relaxed text-gray-400 font-Merriweather">I enjoy making things for the internet. My interest in web development began in 2021, when I decided to learn HTML and CSS and observe the changes in real time. </p>
 
                     <div className="flex justify-start gap-4 items-center mt-2 font-pacificoregular">
-                        <button className="title-font text-white  bg-[#FEC400] border-0 py-2 px-6 focus:outline-none hover:bg-[#ddbb49] rounded">Download CV</button>
+                        <button onClick={downloadResume} className="title-font text-white  bg-[#FEC400] border-0 py-2 px-6 focus:outline-none hover:bg-[#ddbb49] rounded">Resume</button>
 
-                        <button className="flex text-white bg-[#FEC400] border-0 py-2 px-6 focus:outline-none hover:bg-[#ddbb49] rounded">Contact</button>
+                        <button onClick={() => router.push('/contact')} className="flex text-white bg-[#FEC400] border-0 py-2 px-6 focus:outline-none hover:bg-[#ddbb49] rounded">Contact</button>
 
                     </div>
                 </div>
