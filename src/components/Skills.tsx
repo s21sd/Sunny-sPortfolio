@@ -81,7 +81,7 @@ export function Skills() {
                 <h1 className="text-white text-3xl mb-1 font-bold tracking-wide font-pacificoregular">Skills</h1>
                 <div className="bg-[#FEC400] p-[0.12rem] rounded-full mt-4 w-[10%]"></div>
             </div>
-            <div className="h-[20rem] md:h-[30rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start mt-10">
+            <div className="h-[20rem] md:h-[60vh] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start mt-10">
                 <Tabs tabs={tabs} />
             </div>
         </div>

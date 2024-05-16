@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 import { useRouter } from "next/navigation";
+import SocialMedia from "@/Cards/SocialMedia";
 
 export function LampDemo() {
     const router = useRouter()
@@ -37,6 +38,7 @@ export function LampDemo() {
                         <button onClick={() => router.push('/contact')} className="flex text-white bg-[#FEC400] border-0 py-2 px-6 focus:outline-none hover:bg-[#ddbb49] rounded">Contact</button>
 
                     </div>
+                    
                 </div>
             </motion.h1>
         </LampContainer>
