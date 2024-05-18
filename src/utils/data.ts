@@ -1,9 +1,11 @@
+// src/utils/data.ts
 
 type datatype = {
     name: string;
     url: string;
     icon: string;
 };
+
 const codingprofiles: datatype[] = [
     {
         name: 'LeetCode',
@@ -73,7 +75,6 @@ const devskills = [
         name: 'Tailwind CSS',
         icon: 'https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg',
     },
-
     {
         name: 'MySQL',
         icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
@@ -83,10 +84,9 @@ const devskills = [
         icon: 'https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png',
     },
     {
-        name: 'postgres',
+        name: 'PostgreSQL',
         icon: 'https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png',
     },
-
 ];
 
 const androiddev = [
@@ -102,7 +102,6 @@ const androiddev = [
         name: 'Kotlin',
         icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTKUldSv4VupBe3LvL-ME4QwrqJVABbRlxQTa-BGvKbA&s',
     },
-
     {
         name: 'XML',
         icon: 'https://w7.pngwing.com/pngs/816/80/png-transparent-xml-filetype-icon-thumbnail.png',
@@ -111,7 +110,8 @@ const androiddev = [
         name: 'Flutter',
         icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flutter_logo.svg/2048px-Flutter_logo.svg.png',
     },
-]
+];
+
 const languages = [
     {
         name: 'C',
@@ -133,14 +133,15 @@ const languages = [
         name: 'JavaScript',
         icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg',
     },
-]
+];
+
 const tools = [
     {
         name: 'Git',
         icon: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg',
     },
     {
-        name: 'Vscode',
+        name: 'VSCode',
         icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFIglGCe7j-x2VgpLGcgDbu24GqfBA8TeZb60PezMnSA&s',
     },
     {
@@ -159,13 +160,6 @@ const tools = [
         name: 'Figma',
         icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEH7Np4MIH5_sZHXqyGdORED6HXvOaz18niVAKIiHMuw&s',
     },
+];
 
-]
-
-module.exports = {
-    codingprofiles,
-    devskills,
-    languages,
-    androiddev,
-    tools
-};
+export { codingprofiles, devskills, androiddev, languages, tools };

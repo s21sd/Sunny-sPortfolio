@@ -1,7 +1,13 @@
 import { Tabs } from "./ui/tabs";
-import devskills from '../utils/data'
+import { devskills } from '../utils/data'
+import { codingprofiles } from '../utils/data'
+import { tools } from '../utils/data'
+import { androiddev } from '../utils/data'
+import { languages } from '../utils/data'
 import SkillsCard from "@/Cards/SkillsCard";
 export function Skills() {
+    console.log(devskills)
+    console.log(codingprofiles)
     const tabs = [
         {
             title: "Development",
@@ -13,7 +19,7 @@ export function Skills() {
                     </div>
                     <div>
 
-                        <SkillsCard items={devskills.devskills} value={1} />
+                        <SkillsCard items={devskills} value={1} />
                     </div>
 
 
@@ -28,7 +34,7 @@ export function Skills() {
                     <div className="bg-white w-fit p-3 rounded-full text-[#FEC400] shadow-md">
                         <p className="text-sm sm:text-lg md:text-lg lg:text-lg">Android Skills</p>
                     </div>
-                    <SkillsCard items={devskills.androiddev} value={2} />
+                    <SkillsCard items={androiddev} value={2} />
 
 
                 </div>
@@ -43,7 +49,7 @@ export function Skills() {
 
                         <p className="text-sm sm:text-lg md:text-lg lg:text-lg">Coding Profiles</p>
                     </div>
-                    <SkillsCard items={devskills.codingprofiles} value={3} />
+                    <SkillsCard items={codingprofiles} value={3} />
 
 
                 </div>
@@ -57,7 +63,7 @@ export function Skills() {
                     <div className="bg-white w-fit p-3 rounded-full text-[#FEC400] shadow-md">
                         <p className="text-sm sm:text-lg md:text-lg lg:text-lg">Languages</p>
                     </div>
-                    <SkillsCard items={devskills.languages} value={4} />
+                    <SkillsCard items={languages} value={4} />
 
                 </div>
             ),
@@ -70,7 +76,7 @@ export function Skills() {
                     <div className="bg-white w-fit p-3 rounded-full text-[#FEC400] shadow-md">
                         <p className="text-sm sm:text-lg md:text-lg lg:text-lg">Tools</p>
                     </div>
-                    <SkillsCard items={devskills.tools} value={5} />
+                    <SkillsCard items={tools} value={5} />
 
                 </div>
             ),
