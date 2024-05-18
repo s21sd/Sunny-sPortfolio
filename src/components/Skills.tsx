@@ -8,10 +8,13 @@ export function Skills() {
             value: "product",
             content: (
                 <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold  bg-[#FEC400]">
-                    <div className="bg-white w-fit p-3 rounded-full text-[#FEC400] shadow-md">
-                        <p className="">Development Skills</p>
+                    <div className="bg-white w-fit p-3 rounded-full text-[#FEC400] shadow-md ">
+                        <p className="text-sm sm:text-lg md:text-lg lg:text-lg">Development Skills</p>
                     </div>
-                    <SkillsCard items={devskills.devskills} value={1} />
+                    <div>
+
+                        <SkillsCard items={devskills.devskills} value={1} />
+                    </div>
 
 
                 </div>
@@ -23,7 +26,7 @@ export function Skills() {
             content: (
                 <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-[#FEC400]">
                     <div className="bg-white w-fit p-3 rounded-full text-[#FEC400] shadow-md">
-                        <p>Android Skills</p>
+                        <p className="text-sm sm:text-lg md:text-lg lg:text-lg">Android Skills</p>
                     </div>
                     <SkillsCard items={devskills.androiddev} value={2} />
 
@@ -38,7 +41,7 @@ export function Skills() {
                 <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-[#FEC400]">
                     <div className="bg-white w-fit p-3 rounded-full text-[#FEC400] shadow-md">
 
-                        <p>Coding Profiles</p>
+                        <p className="text-sm sm:text-lg md:text-lg lg:text-lg">Coding Profiles</p>
                     </div>
                     <SkillsCard items={devskills.codingprofiles} value={3} />
 
@@ -52,7 +55,7 @@ export function Skills() {
             content: (
                 <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-[#FEC400]">
                     <div className="bg-white w-fit p-3 rounded-full text-[#FEC400] shadow-md">
-                        <p>Languages</p>
+                        <p className="text-sm sm:text-lg md:text-lg lg:text-lg">Languages</p>
                     </div>
                     <SkillsCard items={devskills.languages} value={4} />
 
@@ -65,7 +68,7 @@ export function Skills() {
             content: (
                 <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-[#FEC400]">
                     <div className="bg-white w-fit p-3 rounded-full text-[#FEC400] shadow-md">
-                        <p>Tools</p>
+                        <p className="text-sm sm:text-lg md:text-lg lg:text-lg">Tools</p>
                     </div>
                     <SkillsCard items={devskills.tools} value={5} />
 
@@ -81,7 +84,7 @@ export function Skills() {
                 <h1 className="text-white text-3xl mb-1 font-bold tracking-wide font-pacificoregular">Skills</h1>
                 <div className="bg-[#FEC400] p-[0.12rem] rounded-full mt-4 w-[10%]"></div>
             </div>
-            <div className="h-[20rem] md:h-[60vh] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start mt-10">
+            <div className="h-[20rem] md:h-[60vh] [perspective:1000px]  relative  flex flex-col max-w-5xl mx-auto w-full  items-start justify-start mt-10">
                 <Tabs tabs={tabs} />
             </div>
         </div>

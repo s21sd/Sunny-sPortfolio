@@ -25,9 +25,9 @@ export function LampDemo() {
                     duration: 0.8,
                     ease: "easeInOut",
                 }}
-                className="mt-2  bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text font-medium tracking-tight text-transparent"
+                className="mt-2 bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text font-medium tracking-tight text-transparent"
             >
-                <div className="flex flex-col m-auto lg:w-1/2 w-1/2 lg:pl-10 lg:py-6 mt-6 lg:mt-0 gap-2">
+                <div className="flex flex-col m-auto lg:w-1/2 w-1/2 lg:pl-10 lg:py-6 mt-6 lg:mt-10 gap-2">
                     <h1 className="text-white text-3xl mb-1 tracking-wide font-Merriweather ">Hello!</h1>
                     <h1 className="text-white text-3xl mb-1 font-bold tracking-wide font-pacificoregular">I'm SUNNY</h1>
                     <p className="leading-relaxed text-gray-400 font-Merriweather">I enjoy making things for the internet. My interest in web development began in 2021, when I decided to learn HTML and CSS and observe the changes in real time. </p>
@@ -59,7 +59,7 @@ export const LampContainer = ({
     return (
         <div
             className={cn(
-                "relative flex mt-20 min-h-screen flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0",
+                "relative flex mt-20 min-h-screen flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0 ",
                 className
             )}
         >

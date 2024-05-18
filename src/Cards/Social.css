@@ -190,7 +190,7 @@
 }
 
 .card:nth-child(1):hover {
-    background-color: #cc39a4;
+    background-color: #FEC400;
 }
 
 .card:nth-child(1):hover .instagram {
@@ -198,7 +198,7 @@
 }
 
 .card:nth-child(2):hover {
-    background-color: #03a9f4;
+    background-color: #FEC400;
 }
 
 .card:nth-child(2):hover .instagram {
@@ -206,7 +206,7 @@
 }
 
 .card:nth-child(3):hover {
-    background-color: #ffb5d2;
+    background-color: #FEC400;
 }
 
 .card:nth-child(3):hover .instagram {
@@ -214,7 +214,7 @@
 }
 
 .card:nth-child(4):hover {
-    background-color: #1e1f26;
+    background-color: #FEC400;
 }
 
 .card:nth-child(4):hover .instagram {
@@ -222,8 +222,7 @@
 }
 
 .card:nth-child(5):hover {
-    animation: backgroundIMG 0.1s;
-    animation-fill-mode: forwards;
+    background-color: #FEC400;
 }
 
 .card:nth-child(5):hover .uiverse #paint0_linear_501_142 stop {
@@ -239,7 +238,7 @@
 }
 
 .card:nth-child(6):hover {
-    background-color: #8c9eff;
+    background-color: #FEC400;
 }
 
 .card:nth-child(6):hover .card {
